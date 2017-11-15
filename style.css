@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    margin-left: 10px
+}
+.bg {    
+    background-image: url(moscowwwww.jpeg);
+    height: 549px;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto
+}
+.main {
+    background: rgba(0, 0, 0, 0.26);
+    height: 140px;
+    padding-left: 150px
+}
+.ykt {
+    margin-left: 350px;
+    margin-top: 20px
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    margin-top: 5px
+}
+a:hover {
+    background: #07c;
+    border-radius: 2px;
+    transition: 0.2s
+}
+.flex {
+    display: flex
+}
+.txt {
+    color: white;
+    font-size: 35px;
+    margin-left: 100px;
+    margin-top: 250px;
+}
+.txt p {
+    font-weight: 100
+}
