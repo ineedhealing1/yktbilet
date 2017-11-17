@@ -2,42 +2,110 @@ body {
     margin: 0;
     margin-left: 10px
 }
-.bg {    
+
+.bg {
     background-image: url(moscowwwww.jpeg);
     height: 549px;
     width: 1280px;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    margin-bottom: 25px
 }
+
 .main {
     background: rgba(0, 0, 0, 0.26);
     height: 140px;
     padding-left: 150px
 }
+
 .ykt {
     margin-left: 350px;
     margin-top: 20px
 }
-a {
+
+.ab {
     text-decoration: none;
     color: white;
     margin-left: 50px;
     margin-top: 5px
 }
-a:hover {
+
+.ab:hover {
     background: #07c;
     border-radius: 2px;
     transition: 0.2s
 }
+
 .flex {
     display: flex
 }
+
 .txt {
     color: white;
     font-size: 35px;
     margin-left: 100px;
     margin-top: 250px;
 }
+
 .txt p {
     font-weight: 100
+}
+
+.column {
+    height: 200px;
+    margin-left: 180px;
+    font-size: 20px;
+    display: flex
+}
+
+.box {
+    height: 160px;
+    width: 160px;
+    background-size: cover;
+    border-radius: 2px;
+    margin-right: 25px;
+    text-align: left;
+    padding-left: 5px;
+    box-sizing: border-box;
+    padding-top: 75px;
+    font-weight: 100;
+}
+
+.column a {
+    text-decoration: none;
+    color: #363636
+}
+
+.img1 {
+    background-image: url(online.jpg)
+}
+
+.img2 {
+    background-image: url(table.jpg);
+    color: white
+}
+
+.box3 {
+    background-image: url(tetya.jpg);
+    width: 300px;
+    height: 160px;
+    position: absolute;
+    background-size: cover;
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-top: 100px;
+    color: white;
+    font-weight: 100
+}
+
+.block {
+    height: 456px;
+    width: 310px;
+    background: white;
+    margin-top: -160px;
+    margin-left: auto;
+    margin-right: 150px;
+    border: 3px solid black;
+    border-radius: 3px
 }
